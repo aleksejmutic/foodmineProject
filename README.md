@@ -6,9 +6,19 @@ A simple Angular project built as part of my learning journey. The app focuses o
 
 Through this project, I gained a foundational understanding of Angular, including how to set up and structure a project, configure routes for navigation, bootstrap an Angular application, and work with standalone components. It was a great introduction to building modular, navigable single-page applications.
 
-## Getting Started and Running the Project
+## Features
+
+- View all available foods in the restaurant
+- Visit individual food pages with detailed views
+- Search through the food list
+- Seamless navigation using Angular's built-in routing
+
+## Installation & Setup
+
+To run this project locally:
 
 1. **Clone the repository**  
+   Clone this repository to your machine using:
    ```bash
    git clone https://github.com/aleksejmutic/foodmineProject.git
    cd foodmineProject
