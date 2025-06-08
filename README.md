@@ -18,17 +18,21 @@ Through this project, I gained a foundational understanding of Angular, includin
 
 To run this project locally:
 
-1. **Clone the repository**  
+1. **Clone the repository**
+   
+   Clone this repository to your machine using:
    ```bash
    npm install
    ```
-2. **Install dependencies**
+3. **Install dependencies**
    
    Make sure you have Node.js and Angular CLI installed. Then, install the required packages by running:
    ```bash
    npm install
    ```
-4. **Start the development server**  
+4. **Start the development server**
+
+   Once dependencies are installed, start the development server with:
    ```bash
    ng serve
    ``` 
