@@ -19,18 +19,15 @@ Through this project, I gained a foundational understanding of Angular, includin
 To run this project locally:
 
 1. **Clone the repository**  
-   Clone this repository to your machine using:
    ```bash
    npm install
    ```
 2. **Install dependencies**
    Make sure you have Node.js and Angular CLI installed. Then, install the required packages by running:
    ```bash
-   git clone https://github.com/aleksejmutic/foodmineProject.git
-   cd foodmineProject
+   npm install
    ```
-4. **Start the development server**  
+3. **Start the development server**  
    ```bash
-   git clone https://github.com/aleksejmutic/foodmineProject.git
-   cd foodmineProject
+   ng serve
    ``` 
