@@ -10,7 +10,7 @@ A simple Angular project built as part of my learning journey. The app focuses o
 - Creating and using standalone components
 - Handling user navigation across routes
 
-## Running the Project Locally
+## Getting started and running the project
 
 1. **Clone the repository**  
    ```bash
