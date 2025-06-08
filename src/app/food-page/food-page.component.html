@@ -1,0 +1,49 @@
+<div class="container">
+  <!-- Left column: image -->
+  <div class="image-column">
+    <img [src]="food?.imageUrl" [alt]="food?.name">
+  </div>
+
+  <!-- Right column: all the info -->
+  <div class="details-column">
+    <div class="details">
+      <div class="header">
+        <span class="name">{{food?.name}}</span>
+        <span class="favourite not">❤</span>
+      </div>
+
+      <div *ngIf="food">
+        <ngx-stars
+          [readonly]="true"
+          [size]="1"
+          [maxStars]="5"
+          [initialStars]="food.stars">
+        </ngx-stars>
+      </div>
+
+      <div class="origins">
+        <span *ngFor="let origin of food?.origins">
+          {{origin}}
+        </span>
+      </div>
+
+      <div class="tags">
+        <app-tags [foodPageTags]="food?.tags" justifyContent="start"></app-tags>
+      </div>
+
+      <div class="cooktime">
+        <span>
+          Time to cook about <strong>{{food?.cookTime}}</strong> minutes.
+        </span>
+      </div>
+
+      <div class="price">
+        <span>
+          {{food?.price | currency}}
+        </span>
+      </div>
+
+      <button>Add To Cart</button>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,137 @@
+.container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: stretch; /* Make children stretch to equal height */
+  gap: 2rem;
+  margin: 3rem auto;
+  max-width: 1000px;
+  padding: 1rem;
+}
+
+.image-column img {
+  max-width: 500px;
+  height: auto;
+  border-radius: 3rem;
+  object-fit: cover;
+  margin: 1rem;
+  flex-shrink: 0;
+}
+
+.image-column {
+  /* Let image column size naturally */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.details-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center vertically */
+  flex: 1;
+  padding: 1rem 0;
+}
+
+.details{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex: 1 0;
+    border-radius: 3rem;
+    padding: 3rem;
+    color: black;
+    margin-left: 1rem;
+}
+
+
+.tags {
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+  width: 100%;
+  display: flex; /* make items flow in a row */
+  flex-wrap: wrap; /* wrap if too long */
+  justify-content: flex-start; /* align left */
+  align-items: center; /* vertical align */
+}
+
+.tags span {
+  margin: 0 0.5rem 0.5rem 0; /* small spacing between tags */
+  padding: 0;
+  display: inline-block;
+  text-align: left;
+}
+
+.details .header{
+    display: flex;
+    justify-content: space-between;
+}
+
+details .name{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+details .favourite{
+    color: #e72929;
+    font-size: 2.5rem;
+}
+
+.details .favourite.not{
+    color: grey;
+}
+
+.details .origins{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1rem 0;
+}
+
+.details .origins > span {
+    display: inline-flex;       /* inline with flex for centering */
+    align-items: center;        /* vertically center text */
+    
+    margin: 0 0.5rem 0.5rem 0;  /* no top margin, only right & bottom */
+    padding: 0.3rem 1rem;       /* less vertical padding, enough horizontal */
+    
+    background-color: #f0f8ff;
+    border-radius: 1.5rem;
+    border: 1px solid #cde0f7;
+    font-size: 1.2rem;
+}
+
+.details .cooktime {
+  font-size: 1.2rem;
+  margin: 1rem 0;
+  color: #333;
+}
+
+.details .cooktime strong {
+  font-weight: bold;
+}
+
+.details .price {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 1rem 0;
+  color: #1a7f37; /* just an example, make it greenish */
+}
+
+.details .price::before{
+    content: "Price: ";
+    color: darkgray;
+} 
+
+.details button{
+    color: white;
+    background: #e72929;
+    border: none;
+    font-size: 1.2rem;
+    padding: 1rem;
+    border-radius: 10rem;
+    outline: none;
+}
+
+.details button:hover{
+    opacity: .9;
+    cursor: pointer;
+}
