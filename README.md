@@ -22,7 +22,8 @@ To run this project locally:
    
    Clone this repository to your machine using:
    ```bash
-   npm install
+   git clone https://github.com/aleksejmutic/foodmineProject.git
+   cd foodmineProject
    ```
 3. **Install dependencies**
    
