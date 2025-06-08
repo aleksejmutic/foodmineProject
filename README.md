@@ -11,14 +11,26 @@ Through this project, I gained a foundational understanding of Angular, includin
 - View all available foods in the restaurant
 - Visit individual food pages with detailed views
 - Search through the food list
+- Categorize the foods, and navigate based on those categories
 - Seamless navigation using Angular's built-in routing
 
-## Installation & Setup
+## Getting started
 
 To run this project locally:
 
 1. **Clone the repository**  
    Clone this repository to your machine using:
    ```bash
+   npm install
+   ```
+2. **Install dependencies**
+   Make sure you have Node.js and Angular CLI installed. Then, install the required packages by running:
+   ```bash
    git clone https://github.com/aleksejmutic/foodmineProject.git
    cd foodmineProject
+   ```
+4. **Start the development server**  
+   ```bash
+   git clone https://github.com/aleksejmutic/foodmineProject.git
+   cd foodmineProject
+   ``` 
