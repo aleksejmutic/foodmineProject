@@ -4,13 +4,9 @@ A simple Angular project built as part of my learning journey. The app focuses o
 
 ## What I Learned
 
-- Basics of Angular structure and project setup
-- How routing works in Angular
-- Bootstrapping Angular applications
-- Creating and using standalone components
-- Handling user navigation across routes
+Through this project, I gained a foundational understanding of Angular, including how to set up and structure a project, configure routes for navigation, bootstrap an Angular application, and work with standalone components. It was a great introduction to building modular, navigable single-page applications.
 
-## Getting started and running the project
+## Getting Started and Running the Project
 
 1. **Clone the repository**  
    ```bash
